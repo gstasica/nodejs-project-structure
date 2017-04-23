@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-project-structure",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack -w",
+    "karma": "karma start",
+    "testwatch": "webpack --config webpack.config.ts -w"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.1.2",
+    "gulp": "^3.9.1",
+    "source-map-loader": "^0.2.1",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
